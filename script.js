@@ -11,12 +11,14 @@ function getInputValue(){
     //Compare la valeur a la réponse attendu
     if(inputVal == réponse){
         console.log('bonne rep');
-        document.querySelector(".verification").innerHTML = "<span style='color:green'>Bonne réponse</span>";
+        alert('Bien joué ')
+        //document.querySelector(".verification").innerHTML = "<span style='color:#00561b'>Bonne réponse</span>";
         event.preventDefault();
     } else if (inputVal == ''){
-        document.querySelector(".verification").innerHTML = "<span style='color:red'>Vous n'avez rentré aucune réponse </span>";
+        document.querySelector(".verification").innerHTML = "<span style='color:#6b0d0d'>Vous n'avez rentré aucune réponse </span>";
+        event.preventDefault();
     } else {
-        document.querySelector(".verification").innerHTML = "<span style='color:red'>Mauvaise réponse, mais vous pouvez réessayé</span>";
+        document.querySelector(".verification").innerHTML = "<span style='color:#6b0d0d'>Mauvaise réponse, mais vous pouvez réessayé</span>";
         event.preventDefault();
     }
 }

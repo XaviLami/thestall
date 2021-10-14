@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("src/Fond.png");
+    
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+legend{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-family: kings-caslon, sans-serif;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.btn-primary{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: 180px;
+    background: #80D5AD;
+}
+.btn-primary:hover {
+    box-shadow: inset 0 0 0 20rem var(--darken-1);
+    background: #80D5AD ;
+}
+.btn-primary::placeholder{
+    color: black;
+}
+.form-control {
+    border-radius: 25px;
+    background: #1A1A1A;
+}
+.form-control::placeholder{
+    color: #E1E1E1;
+}
+.verification{
+    text-align: center;
+    font-size: 25px;
+    font-family: kings-caslon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.center-btn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr.new5 {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: #80D5AD;
+}
+.logo{
+    width: 800px;
+}
+footer ul li {
+    color: white;
+    list-style-type:none;
+    display: inline;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+footer {
+    position: absolute; 
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}

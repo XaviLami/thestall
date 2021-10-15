@@ -10,8 +10,8 @@ function getInputValue(){
 
     //Compare la valeur a la réponse attendu
     if(inputVal == réponse){
-        console.log('bonne rep');
-        alert('Bien joué ')
+        console.log('1234');
+        alert('1234 ')
         //document.querySelector(".verification").innerHTML = "<span style='color:#00561b'>Bonne réponse</span>";
         event.preventDefault();
     } else if (inputVal == ''){

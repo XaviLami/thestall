@@ -11,7 +11,7 @@ function getInputValue(){
     //Compare la valeur a la réponse attendu
     if(inputVal == réponse){
         console.log('1234');
-        alert('1234 ')
+        alert('8463')
         //document.querySelector(".verification").innerHTML = "<span style='color:#00561b'>Bonne réponse</span>";
         event.preventDefault();
     } else if (inputVal == ''){

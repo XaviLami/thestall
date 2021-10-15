@@ -18,7 +18,7 @@ function getInputValue(){
         document.querySelector(".verification").innerHTML = "<span style='color:#6b0d0d'>Vous n'avez rentré aucune réponse </span>";
         event.preventDefault();
     } else {
-        document.querySelector(".verification").innerHTML = "<span style='color:#6b0d0d'>Mauvaise réponse, mais vous pouvez réessayé</span>";
+        document.querySelector(".verification").innerHTML = "<span style='color:#6b0d0d'>Mauvaise réponse, mais vous pouvez réessayer</span>";
         event.preventDefault();
     }
 }
